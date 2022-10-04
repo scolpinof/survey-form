@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">We want your opinion</p>
+      <form id="survey-form" action="">
+        <label id="name-label" for="name" class="line-st">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" required />
+        <label id="email-label" for="email" class="line-st">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <label id="number-label" for="number" class="line-st">Age</label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          placeholder="Age"
+          min="18"
+          max="30"
+        />
+        <label for="dropdown" class="line-st">Choose your Country</label>
+        <select name="dropdown" id="dropdown">
+          <option value="option-one">Argentina</option>
+          <option value="option-two">Brazil</option>
+          <option value="option-three">Chile</option>
+          <option value="option-four">Uruguay</option>
+        </select>
+        <p class="line-st">Gender</p>
+        <label for="male">Male</label>
+        <input
+          type="radio"
+          id="male"
+          name="gender"
+          value="male"
+          class="gender"
+        />
+        <label for="female">Female</label>
+        <input
+          type="radio"
+          id="female"
+          name="gender"
+          value="female"
+          class="gender"
+        />
+        <p class="line-st">What do you think about this website?</p>
+        <label for="friendly">Friendly</label>
+        <input type="checkbox" id="friendly" name="opinion" value="friendly" />
+        <label for="funny">Funny</label>
+        <input type="checkbox" id="funny" name="opinion" value="funny" />
+        <label for="interesting">Interesting</label>
+        <input
+          type="checkbox"
+          id="interesting"
+          name="opinion"
+          value="interesting"
+        />
+        <label for="useful">Useful</label>
+        <input type="checkbox" id="useful" name="opinion" value="useful" />
+        <p class="line-st">Write your comments</p>
+        <textarea
+          name="comments"
+          id="comments"
+          placeholder="Enter your comments"
+        ></textarea>
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>

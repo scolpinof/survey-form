@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,500&family=Space+Mono&display=swap");
+
+body {
+  text-align: center;
+  background: linear-gradient(0, #4e040a, #a00815, #ec0c1f);
+  color: #fff;
+}
+#title {
+  font-family: "Space Mono", monospace;
+  font-size: 2em;
+}
+#description {
+  font-family: "Josefin Slab", serif;
+  font-size: 1.5em;
+}
+form {
+  width: 80%;
+  margin: auto;
+  background-color: #4e040a21;
+  border-radius: 0.2em;
+  padding: 1em;
+  font-family: "Josefin Slab", serif;
+  font-size: 2em;
+  font-weight: 600;
+}
+input,
+select {
+  display: block;
+  margin: 1em auto;
+  width: 20em;
+  font-size: 0.6em;
+  color: #808080;
+}
+.line-st {
+  display: block;
+  background: linear-gradient(90deg, #a00815, #4e040a, #a00815);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.gender {
+  display: inline;
+  width: 1em;
+}
+[name="opinion"] {
+  display: inline;
+  width: 1em;
+}
+textarea {
+  width: 60%;
+  height: 8em;
+  resize: none;
+  font-size: 0.8em;
+}
+#submit {
+  color: #4e040a;
+  font-weight: bold;
+}
+#submit:hover {
+  background-color: #4e040a;
+  color: #fff;
+}
